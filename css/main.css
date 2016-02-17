@@ -1,0 +1,161 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin: 0;padding: 0;}
+em{font-style: normal;}
+li{list-style: none;}
+a{text-decoration: none;}
+img{border: none;vertical-align: top;}
+table{border-collapse: collapse;}
+input,textarea{outline: none;}
+textarea{resize:none;overflow: auto;}
+body{font-size:12px;font-family: arial;}
+
+html,body{
+	width: 100%;
+	height: 100%;
+}
+#wrap{
+	max-width: 480px;
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+#loading{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 999;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	font-size: 30px;
+}
+#inner{
+	width: 100%;
+	height: 500%;
+	position: absolute;
+}
+#inner>div{
+	width: 100%;
+	height: 20%;
+}
+.logo{
+	width: 90%;
+	/*margin: auto;*/
+	/*margin-top: 18px;*/
+	position: absolute;
+	/*position: fixed;*/
+	top: 18px;
+	left: 18px;
+	z-index: 999;
+}
+.logo img{
+	width: 100%;
+}
+#page1,#page2,#page3,#page4,#page5{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+#page1{
+	background: url(../img/bg1.jpg)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#car{
+	width: 100%;
+	position: absolute;
+	top: 64.792079%;
+	left: -100%;
+}
+#page1>div>img{
+	width: 100%;
+}
+#page1>div>#lun{
+	width: 13%;
+	position: absolute;
+	top: 32.5%;
+	left: 52.2%;
+	display: block;
+	-webkit-animation: move 0.6s linear 0.5s both;
+	animation: move 0.6s linear 0.5s both;
+}
+@-webkit-keyframes move{
+	0{
+		-webkit-transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+	}
+}
+#page2{
+	background: url(../img/bg2_1.png)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#car2{
+	width: 82%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+#car2 img{
+	width: 100%;
+}
+#pageline2{
+	width: 100%;
+	height: 100%;
+}
+#pageline2 img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: -100%;
+}
+#page3{
+	background: url(../img/bg3.jpg)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#engine{
+	width: 50%;
+	position: absolute;
+	left: -100%;
+	bottom: 0;
+}
+#engine img{
+	width: 100%;
+}
+#page4{
+	background: url(../img/bg4_1.jpg)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#page4line{
+	width: 100%;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	
+}
+#page4line img{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: -100%;
+}
+#page5{
+	background: url(../img/bg5.png)no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#page5 a{
+	display: inline-block;
+	width: 44.53125%;
+	position: absolute;
+	top: 34.722222%;
+	right: 10%;
+}
+#page5 a img{
+	width: 100%;
+}
